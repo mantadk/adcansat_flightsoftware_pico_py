@@ -6,7 +6,7 @@ import MPU6050 as mpu6050
 LED = Pin(25, Pin.OUT)  # Built-in LED
 vuart.send_vuart_string("Pico Ready")
 
-i2c = I2C(1, scl=Pin(15), sda=Pin(14), freq=400000)  
+i2c = I2C(1, scl=Pin(13), sda=Pin(12), freq=400000)  
 
 
 
